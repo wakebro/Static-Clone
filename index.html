@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d2b3949248.js" crossorigin="anonymous"></script>
+    <title>StaticClone</title>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!---Header-->
+    <header>
+        <div class="logo">
+            <button><i class="fab fa-youtube"></i></button>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+    <!--Video Player-->
+    <section class="player">
+        <video autoplay controls width="720" src="video/[아이즈원] 은비의 사랑앓이 (부제_도망가 채원아).mp4"></video>
+    </section>
+    <div class="infoAndUpNext">
+        <!--Video Info-->
+        <section class="info">
+            <!--Metadata-->
+            <div class="metadata">
+                <ul class="hashtag">
+                    <li>#IZ'One</li>
+                    <li>#권은비</li>
+                    <li>#나코</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트 따라
+                        만들기 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript
+                        로 프론트엔드 실전 입문편 [아이즈원] 은비와 나코
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">1M views 1 month ago</span>
+            </div>
+            <!-- Actions -->
+            <ul class="actions">
+                <li>
+                    <button><i class="active fas fa-thumbs-up"></i><span>1K</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-share"></i><span>Share</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-plus"></i><span>Save</span></button>
+                </li>
+                <li>
+                    <button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button>
+                </li>
+            </ul>
+            <!-- Channel Dsecription -->
+            <div class="channel">
+                <div class="metadata">
+                    <div class="img"><img src="/image/KakaoTalk_Photo_2021-03-03-11-30-09.jpeg" alt=""></div>
+                    <div class="info">
+                        <span class="name">덕질계정 by Wake</span>
+                        <span class="subcribers">1M subcribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>
+        <!-- Up Next -->
+        <section class="upNext">
+            <span class="tilte">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="image/1.png" alt=""></div>
+                    <div class="info">
+                        <span class="title">아이즈원_La vie en Rose</span>
+                        <span class="name">덕질계정 by Wake</span>
+                        <span class="views">81K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/2.png" alt=""></div>
+                    <div class="info">
+                        <span class="title">아이즈원_Violeta</span>
+                        <span class="name">덕질계정 by Wake</span>
+                        <span class="views">82K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/3.png" alt=""></div>
+                    <div class="info">
+                        <span class="title">아이즈원_FIESTA</span>
+                        <span class="name">덕질계정 by Wake</span>
+                        <span class="views">82K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>
